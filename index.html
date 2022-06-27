@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Namanganliklar-24</title>
-    <!-- <link rel="stylesheet" href="./css/main.css"> -->
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
 </head>
 
 <body>
@@ -18,8 +18,8 @@
             <div class="container">
                 <div class="header-part-main">
                     <div class="header-left">
-                        <a href="./index.html"><img class="site-logo" src="./images/namanganlillar-24-logo.svg" width="276"
-                                height="45" alt="Namanganliklar-24 logo">
+                        <a href="./index.html"><img class="site-logo" src="./images/namanganlillar-24-logo.svg"
+                                width="276" height="45" alt="Namanganliklar-24 logo">
                         </a>
                         <div class="header-currency-box">
                             <div class="header-currency dollar">
@@ -184,7 +184,7 @@
                 <div class="article-box">
                     <h2>Хотите быть в курсе свежих новостей? Включите уведомления!
                     </h2>
-                    <a href="#">Включит </a>
+                    <button class="article-btn js-articel-btn" type="button">Включит </button>
                 </div>
             </div>
         </article>
@@ -203,7 +203,8 @@
                                 </a>
                                 <div class="past-news-text-part">
                                     <h3>
-                                        <a href="#">Китайский Чунцин запустил чартерный рейс для студентов до Британии</a>
+                                        <a href="#">Китайский Чунцин запустил чартерный рейс для студентов до
+                                            Британии</a>
                                     </h3>
                                     <p>Чартерный рейс с 244 китайскими студентами вылетел из города центрального
                                         подчинения
@@ -241,7 +242,8 @@
                                             сейчас</a>
                                     </h3>
                                     <p>За последние месяцы инвесторы в китайский рынок пережили настоящее потрясение —
-                                        из-за ужесточения регулирования технологического сектора и критики некоторых...</p>
+                                        из-за ужесточения регулирования технологического сектора и критики некоторых...
+                                    </p>
                                     <div class="past-news-under-post rbk-invest">
                                         <p>РБК Инвестиции <time datetime="2022-05-16 09:35">09:35</time> </p>
                                     </div>
@@ -367,8 +369,19 @@
     <!-- End of Footer Section -->
 
 
+    <!-- Modal -->
+    <div class="notification">
+        <div class="article-modal">
+            <div class="article-modal-show-text">
+                <p>Хотите быть в курсе свежих новостей? Включите уведомления!
+                </p>
+            </div>
+            <button class="article-modal-show-btn" type="button">Включит</button>
+            <button class="close-modal"><img src="./images/close-icon.svg" width="24" height="24" alt=""></button>
+        </div>
+    </div>
 
-
+    <script src="./js/mian.js"></script>
 </body>
 
 </html>
